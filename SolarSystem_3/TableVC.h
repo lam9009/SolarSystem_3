@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AstronomicalData.h"
+#import "SpaceObject.h"
 
 @interface TableVC : UITableViewController
 
