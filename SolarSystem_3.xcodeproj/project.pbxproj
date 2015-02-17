@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		DFB7BBB21A93DD0F00F2920C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BBB11A93DD0F00F2920C /* main.m */; };
 		DFB7BBB51A93DD0F00F2920C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BBB41A93DD0F00F2920C /* AppDelegate.m */; };
-		DFB7BBB81A93DD0F00F2920C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BBB71A93DD0F00F2920C /* ViewController.m */; };
 		DFB7BBBB1A93DD0F00F2920C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB7BBB91A93DD0F00F2920C /* Main.storyboard */; };
 		DFB7BBBD1A93DD0F00F2920C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB7BBBC1A93DD0F00F2920C /* Images.xcassets */; };
 		DFB7BBC01A93DD0F00F2920C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB7BBBE1A93DD0F00F2920C /* LaunchScreen.xib */; };
 		DFB7BBCC1A93DD0F00F2920C /* SolarSystem_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BBCB1A93DD0F00F2920C /* SolarSystem_3Tests.m */; };
+		DFB7BBD71A93DD7800F2920C /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BBD61A93DD7800F2920C /* TableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		DFB7BBB11A93DD0F00F2920C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFB7BBB31A93DD0F00F2920C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFB7BBB41A93DD0F00F2920C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFB7BBB61A93DD0F00F2920C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFB7BBB71A93DD0F00F2920C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFB7BBBA1A93DD0F00F2920C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFB7BBBC1A93DD0F00F2920C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFB7BBBF1A93DD0F00F2920C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DFB7BBC51A93DD0F00F2920C /* SolarSystem_3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystem_3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB7BBCA1A93DD0F00F2920C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB7BBCB1A93DD0F00F2920C /* SolarSystem_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystem_3Tests.m; sourceTree = "<group>"; };
+		DFB7BBD51A93DD7800F2920C /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
+		DFB7BBD61A93DD7800F2920C /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				DFB7BBB31A93DD0F00F2920C /* AppDelegate.h */,
 				DFB7BBB41A93DD0F00F2920C /* AppDelegate.m */,
-				DFB7BBB61A93DD0F00F2920C /* ViewController.h */,
-				DFB7BBB71A93DD0F00F2920C /* ViewController.m */,
 				DFB7BBB91A93DD0F00F2920C /* Main.storyboard */,
+				DFB7BBD51A93DD7800F2920C /* TableVC.h */,
+				DFB7BBD61A93DD7800F2920C /* TableVC.m */,
 				DFB7BBBC1A93DD0F00F2920C /* Images.xcassets */,
 				DFB7BBBE1A93DD0F00F2920C /* LaunchScreen.xib */,
 				DFB7BBAF1A93DD0F00F2920C /* Supporting Files */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB7BBB81A93DD0F00F2920C /* ViewController.m in Sources */,
+				DFB7BBD71A93DD7800F2920C /* TableVC.m in Sources */,
 				DFB7BBB51A93DD0F00F2920C /* AppDelegate.m in Sources */,
 				DFB7BBB21A93DD0F00F2920C /* main.m in Sources */,
 			);
